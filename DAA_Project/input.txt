@@ -1,0 +1,44 @@
+
+
+
+
+ NFA STATE TRANSITION TABLE 
+
+
+STATES	|0	|1	|eps	--------+------------------------------------
+A	|ABCDE 	|DE 	|- 	
+B	|C 	|E 	|- 	
+C	|- 	|B 	|- 	
+D	|E 	|- 	|- 	
+E	|- 	|- 	|- 	
+
+ e-Closure (A) :	A
+
+ e-Closure (B) :	B
+
+ e-Closure (C) :	C
+
+ e-Closure (D) :	D
+
+ e-Closure (E) :	E
+
+
+********************************************************
+
+		 DFA TRANSITION STATE TABLE 		 
+
+
+ STATES OF DFA :		A, ABCDE, DE, BDE, E, CE, B, C, 
+
+ GIVEN SYMBOLS FOR DFA: 	0, 1, 
+
+STATES	|0	|1	
+--------+-----------------------
+A	|ABCDE 	|DE 	
+ABCDE	|ABCDE 	|BDE 	
+DE	|E 	|- 	
+BDE	|CE 	|E 	
+E	|- 	|- 	
+CE	|- 	|B 	
+B	|C 	|E 	
+C	|- 	|B 	
