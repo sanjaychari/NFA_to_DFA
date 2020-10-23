@@ -3,14 +3,7 @@ Epsilon NFA To DFA Conversion
 
 
 COLLABORATORS :
-Name : Sanjay Chari
-SRN : PES1201700278
-Section : G
-
-Name : Vishnu S. Murali
-SRN : PES1201701624
-Section : G
-
+Sanjay Chari, Vishnu S. Murali
 
 STEPS TO EXECUTE THE PROJECT :
 1. The project makes use of the python libraries tkinter and graphics.
